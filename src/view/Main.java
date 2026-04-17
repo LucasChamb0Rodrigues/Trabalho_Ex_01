@@ -1,3 +1,8 @@
+package view;
+
+import model.Cliente;
+import model.Horario;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,9 +21,9 @@ public class Main {
         System.out.println("=== SISTEMA DE CONTROLE DE QUADRA ===");
 
         do {
-            System.out.println("\n1. Cadastrar Cliente");
+            System.out.println("\n1. Cadastrar model.Cliente");
             System.out.println("2. Cadastrar Horário Disponível");
-            System.out.println("3. Registrar Aluguel");
+            System.out.println("3. Registrar model.Aluguel");
             System.out.println("4. Consultar Aluguéis do Dia");
             System.out.println("0. Sair");
             System.out.print("Escolha uma opção: ");
@@ -28,12 +33,12 @@ public class Main {
 
                 switch (opcao) {
                     case 1:
-                        System.out.print("Nome do Cliente: ");
+                        System.out.print("Nome do model.Cliente: ");
                         String nome = scanner.nextLine();
                         System.out.print("Telefone: ");
                         String tel = scanner.nextLine();
                         clientesCadastrados.add(new Cliente(nome, tel));
-                        System.out.println("Cliente cadastrado com sucesso!");
+                        System.out.println("model.Cliente cadastrado com sucesso!");
                         break;
 
                     case 2:
@@ -52,7 +57,7 @@ public class Main {
                         }
 
 
-                        System.out.println("\nSelecione o Cliente:");
+                        System.out.println("\nSelecione o model.Cliente:");
                         for (int i = 0; i < clientesCadastrados.size(); i++) {
                             System.out.println(i + " - " + clientesCadastrados.get(i).getNome());
                         }

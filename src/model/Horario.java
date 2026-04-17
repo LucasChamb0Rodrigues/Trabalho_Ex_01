@@ -1,3 +1,5 @@
+package model;
+
 public class Horario {
     private String hora; // Ex: "19:00"
     private double valor;

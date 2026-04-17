@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="071fe96c-909d-4d52-8204-ec7767497b9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Aluguel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GerenciadorQuadra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GerenciadorQuadra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Horario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "projetoMVC",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/lucaschambo/IdeaProjects/Controle_de_Aluguel_de_Quadra_Esportiva/src/Main.java",
     "settings.editor.selected.configurable": "preferences.general",
@@ -68,7 +72,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Cliente.java</url>
+          <url>file://$PROJECT_DIR$/src/model/Cliente.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
