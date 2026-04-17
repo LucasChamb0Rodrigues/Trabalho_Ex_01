@@ -1,11 +1,12 @@
 package view;
 
+import controller.GerenciadorQuadra;
+import model.Aluguel;
 import model.Cliente;
 import model.Horario;
-
-import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.time.LocalDate;
 
 public class Main {
