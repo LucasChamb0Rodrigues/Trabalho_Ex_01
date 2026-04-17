@@ -20,7 +20,7 @@ public class GerenciadorQuadra {
         Aluguel novoAluguel = new Aluguel(cliente, horario, data);
         alugueis.add(novoAluguel);
         horario.setOcupado(true);
-        System.out.println("model.Aluguel realizado com sucesso para " + cliente.getNome());
+        System.out.println("Aluguel realizado com sucesso para " + cliente.getNome());
     }
 
     public double calcularTotalClienteNoDia(Cliente cliente, LocalDate data) {

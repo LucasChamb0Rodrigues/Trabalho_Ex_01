@@ -19,7 +19,7 @@ public class Aluguel {
 
     @Override
     public String toString() {
-        return "Data: " + data + " | model.Cliente: " + cliente.getNome() +
+        return "Data: " + data + " | Cliente: " + cliente.getNome() +
                 " | Horário: " + horario.getHora() + " | Valor: R$ " + horario.getValor();
     }
 }
