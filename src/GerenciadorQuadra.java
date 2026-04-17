@@ -6,7 +6,6 @@ public class GerenciadorQuadra {
     private List<Aluguel> alugueis = new ArrayList<>();
 
     public void registrarAluguel(Cliente cliente, Horario horario, LocalDate data) {
-        // Regra: Não permitir reservar horário ocupado
         if (horario.isOcupado()) {
             System.out.println("ERRO: O horário das " + horario.getHora() + " já está ocupado!");
             return;

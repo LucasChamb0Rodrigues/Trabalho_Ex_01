@@ -8,7 +8,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         GerenciadorQuadra sistema = new GerenciadorQuadra();
 
-        // Listas para armazenar o que foi cadastrado durante a execução
         List<Cliente> clientesCadastrados = new ArrayList<>();
         List<Horario> horariosDisponiveis = new ArrayList<>();
 
@@ -52,14 +51,14 @@ public class Main {
                             break;
                         }
 
-                        // Listar clientes para seleção
+
                         System.out.println("\nSelecione o Cliente:");
                         for (int i = 0; i < clientesCadastrados.size(); i++) {
                             System.out.println(i + " - " + clientesCadastrados.get(i).getNome());
                         }
                         int cliIndex = Integer.parseInt(scanner.nextLine());
 
-                        // Listar horários para seleção
+
                         System.out.println("\nSelecione o Horário:");
                         for (int i = 0; i < horariosDisponiveis.size(); i++) {
                             Horario h = horariosDisponiveis.get(i);
@@ -73,7 +72,7 @@ public class Main {
 
                         sistema.registrarAluguel(c, h, LocalDate.now());
 
-                        // Mostrar total acumulado do cliente no dia
+
                         double total = sistema.calcularTotalClienteNoDia(c, LocalDate.now());
                         System.out.println("Total acumulado de " + c.getNome() + " hoje: R$ " + total);
                         break;
