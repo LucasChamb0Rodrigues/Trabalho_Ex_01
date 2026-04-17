@@ -14,7 +14,6 @@ public class Horario {
         this.ocupado = false;
     }
 
-    // Getters e Setters
     public String getHora() { return hora; }
     public double getValor() { return valor; }
     public boolean isOcupado() { return ocupado; }
